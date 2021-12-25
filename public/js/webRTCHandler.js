@@ -19,6 +19,22 @@ const configuration = {
       username: "YzYNCouZM1mhqhmseWk6",
       credential: "YzYNCouZM1mhqhmseWk6",
     },
+    {
+      urls: ["stun:hk-turn1.xirsys.com"],
+    },
+    {
+      username:
+        "tNhQ-8z6t0-HUO5yjcANN9yaQywJSI9pQQO1F77UH7mx64_dUNRVQw8CgQw5IHt6AAAAAGHG8vxkZWxtb3M=",
+      credential: "cf084f7c-656d-11ec-a020-0242ac120004",
+      urls: [
+        "turn:hk-turn1.xirsys.com:80?transport=udp",
+        "turn:hk-turn1.xirsys.com:3478?transport=udp",
+        "turn:hk-turn1.xirsys.com:80?transport=tcp",
+        "turn:hk-turn1.xirsys.com:3478?transport=tcp",
+        "turns:hk-turn1.xirsys.com:443?transport=tcp",
+        "turns:hk-turn1.xirsys.com:5349?transport=tcp",
+      ],
+    },
   ],
 };
 export const getLocalPreview = () => {
