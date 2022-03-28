@@ -164,7 +164,7 @@ button {
   }
   
   .stranger_connecting_container {
-    display: flex;
+    display: none;
     flex-direction: column;
     margin: 0 40px;
   }
